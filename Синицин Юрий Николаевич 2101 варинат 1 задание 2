@@ -1,0 +1,7 @@
+import math
+
+d = float (input ('Введите начальную высоту падения шара в метрах:'))
+a = 9.8
+Vi = 0
+speed = math.sqrt (Vi ** 2 + 2 * a * d)
+print ('Финальная скорость при падении =', speed)
